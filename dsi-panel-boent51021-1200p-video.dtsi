@@ -1,6 +1,6 @@
 /* Novatek Android Driver Sample Code for Notvatek chipset
 *
-* Copyright (C) 2015 Novatek Corporation.
+* Copyright (C) 2010 Novatek Corporation.
 *
 * This software is licensed under the terms of the GNU General Public
 * License version 2, as published by the Free Software Foundation, and
@@ -13,7 +13,7 @@
 *
 */
 &mdss_mdp {
-  dsi_boent51021_1200p_vid: qcom,mdss_dsi_boent51021_1200p_video {
+  dsi_boent51021_1200p_video: qcom,mdss_dsi_boent51021_1200p_video {
     qcom,mdss-dsi-panel-name = "boent51021 1200p video mode dsi panel";
     qcom,mdss-dsi-panel-type = "dsi_video_mode";
     qcom,mdss-dsi-panel-framerate = <60>;
